@@ -1,8 +1,4 @@
 from setuptools import setup, find_packages
-from torch.utils.cpp_extension import BuildExtension, CUDAExtension
-from distutils.extension import Extension
-from Cython.Build import cythonize
-import numpy as np
 
 setup(
     name="MotionGPT",
